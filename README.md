@@ -8,12 +8,12 @@ mvn package
 mvn dockerfile:build
 ```
 
-## 2. RUN THE CONTAINER
+## 2. RUN THE CONTAINER OF THE PROJECT
 ```
 docker run -p 8080:8080 ozay/ecs-logging:0.0.1-SNAPSHOT
 ```
 
-## 3. CHECK LOG FILES
+## 3. CHECK THE LOG FILES
 
 ```
 docker ps 
