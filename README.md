@@ -26,7 +26,8 @@ docker exec -it c4a39a346bcb ash
 cd var/log/ecs-sample-service
 ````
 
-you will see two log files _**ecs-sample-service.json**_ and _**ecs-sample-service.log**_
+you will see two log files _**ecs-sample-service.json**_ and _**ecs-sample-service.log**_with the following content:
+![](.README_images/dd189d32.png)
 
 
 
